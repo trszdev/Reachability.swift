@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "Reachability",
+    platforms: [.iOS(.v10)],
     products: [
         .library(
             name: "Reachability",
